@@ -111,8 +111,9 @@
 <img width="2039" height="511" alt="изображение" src="https://github.com/user-attachments/assets/cb65dfef-277d-431d-9bf9-35c5312d2c45" />
 Рисунок 3 - Схема работы метода Pi3MOS-SLAM
 
+Метод показывает превосходство по метрике ATE RMSE в датасетах Sintel, Bonn и Wild-SLAM MoCap над методами **Wild-SLAM** и **MegaSaM**. Оценка по метрике ATE RMSE представлена в таблице 4.
 
-
+Таблица 4 - Результаты работы метода **Pi3MOS-SLAM**
 | Датасет | ATE RMSE (см) |
 |---|---:|
 | Sintel | 1.9 |
