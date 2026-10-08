@@ -171,7 +171,7 @@
 
 ### 3.4 Проверка гипотезы
 
-Перед реализацией метода
+Перед реализацией метода необходимо провести запуск монокулярного **VDO-SLAM** и сравнить с другими монокулярными методами, исключающими динамические объекты, чтобы убедиться в целесообразности воплощения решения.
 
 ## Источники информации
 [1] - Li Z. et al. Megasam: Accurate, fast, and robust structure and motion from casual dynamic videos //2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). – IEEE, 2025. – С. 10486-10496.
