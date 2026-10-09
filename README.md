@@ -165,7 +165,7 @@
 
   Формула прогнозирования положения статической точки сцены $\mathbf{X}_i$ в момент времени $t$:
 
-$$\hat{\mathbf{u}}_{i,t}^{s}=\F\left(\mathbf{K}\left(\mathbf{R}_t \mathbf{X}_i + \mathbf{t}_t\right)\right),$$
+$$\hat{\mathbf{u}}_{i,t}^{s}=P\left(\mathbf{K}\left(\mathbf{R}_t \mathbf{X}_i + \mathbf{t}_t\right)\right),$$
 
 где $\mathbf{X}_i$ - 3D-координаты статической точки,
 
@@ -175,11 +175,11 @@ $\mathbf{R}_t$ - матрица поворота между ключевыми �
 
 $\mathbf{t}_t$ - матрица перемещения между ключевыми кадрами,
 
-$\F$ - функция проекции 3D-точки на плоскость изображения.
+$P$ - функция проекции 3D-точки на плоскость изображения.
 
   Формула прогнозирования положения точки, принадлежащей динамическому объекту $o$, с учётом его движения:
 
-$$ \hat{\mathbf{u}}_{j,t}^{d} = \P_t\left(\mathbf{K}\left(\mathbf{R}_t\left(\mathbf{R}_{o,t} \mathbf{X}_{j}^{o}+\mathbf{t}_{o,t}\right)+\mathbf{t}_t\right)\right),$$
+$$ \hat{\mathbf{u}}_{j,t}^{d} = P\left(\mathbf{K}\left(\mathbf{R}_t\left(\mathbf{R}_{o,t} \mathbf{X}_{j}^{o}+\mathbf{t}_{o,t}\right)+\mathbf{t}_t\right)\right),$$
 
 где $\mathbf{X}_{j}^{o}$ - координата точки в системе координат объекта,
 
