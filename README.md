@@ -213,17 +213,7 @@ $$
 
 Вес вклада динамических точек может быть выражен формулой:
 
-$$
-w_j^{d}
-=
-p_j^{\mathrm{dyn}}
-\cdot
-p_j^{\mathrm{rigid}}
-\cdot
-c_{o(j)}
-\cdot
-\left(1 - \sigma_j^{\mathrm{depth}}\right),
-$$
+$$ w_j^{d} = p_j^{\mathrm{dyn}} \cdot p_j^{\mathrm{rigid}} \cdot c_{o(j)} \cdot \left(1 - \sigma_j^{\mathrm{depth}}\right), $$
 
 где $p_j^{\mathrm{dyn}}$ — вероятность принадлежности пикселя к динамическому объекту, $p_j^{\mathrm{rigid}}$ — вероятность принадлежности пикселя к жёсткой части объекта, $c_{o(j)}$ — коэффициент доверия, зависящий от класса объекта, а $\sigma_j^{\mathrm{depth}}$ — неопределённость оценки глубины.
 
